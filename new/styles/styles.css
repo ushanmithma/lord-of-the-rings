@@ -1,0 +1,106 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #000000;
+	color: #ffffff;
+}
+
+.clearfix { overflow: auto; }
+
+.bg-video {
+	margin: 0 auto;
+}
+
+.bg-poto img {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	position: absolute;
+	opacity: 0.4;
+	width: 100%;
+	z-index: -1;
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.lotr-d1 {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.image {
+	margin-top: 10%;
+	width: 18%;
+	float: left;
+}
+
+.image img {
+	width: 100%;
+	border: 1px solid #ffffff;
+}
+
+.detalis {
+	margin-top: 10%;
+	width: 82%;
+	float: right;
+}
+
+.name {
+	margin: 0 0 0 5%;
+	line-height: 50%;
+}
+
+.name h3 span {
+	font-size: xx-large;
+}
+
+.rating {
+	margin: 0 0 0 5%;
+}
+
+.data {
+	line-height: 10%;
+	margin: 0 0 0 5%;
+}
+
+.download-button {
+	margin: 0 0 1% 5%;
+}
+
+.download-button button {
+	border: 1px solid #ffffff;
+	padding: 5px 10px;
+	background: #000000;
+	color: #ffffff;
+	text-transform: uppercase;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.download-button button:hover {
+	background: #343434;
+	cursor: pointer;
+}
+
+.text {
+	margin: 0 5%;
+	padding-bottom: 100%;
+}
+
+.text p {
+	line-height: 140%;
+}
+
+.foot {
+	margin: 0 5%;
+}
+
+
+
+
+
+
+
